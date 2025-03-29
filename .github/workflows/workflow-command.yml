@@ -14,7 +14,7 @@ jobs:
               echo "::endgroup::"
           - name: "step 1"
             run: |
-              echo "Kaisa hai bhai"
+              echo "MY_VAL=hello" >> $GITHUB_ENV
           - name: "step 2"
             run: |
-              echo "kia haal chal hai"
+              echo $MY_VAL
