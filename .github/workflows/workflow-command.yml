@@ -12,3 +12,9 @@ jobs:
               echo  "Msg 1"
               echo  "Msg 2"
               echo "::endgroup::"
+          - name: "step 1"
+            run: |
+              echo "Kaisa hai bhai"
+          - name: "step 2"
+            run: |
+              echo "kia haal chal hai"
